@@ -1,0 +1,195 @@
+.log {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+    background-image: url("src/assets/images/svg/pexels-jahoo-clouseau-388415.jpg");
+    // background-color: rgb(128, 132, 144);
+    background-size: cover;
+    overflow-y: scroll;
+
+}
+section {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  
+}
+
+.mcsLink {
+  text-decoration: none;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.897);
+}
+
+mat-card {
+  width: 40em;
+  background-color: white;
+  padding-top: 2em;
+  
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.img_container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.img1 {
+  width: 12em;
+  padding: 1em auto;
+  
+}
+
+.img2 {
+  width: 21.5em;
+  margin: 1em auto;
+}
+
+h1 {
+  font-size: 1.4em !important;
+  font-weight: 600;
+  margin: 1em 0;
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+p {
+text-align: center;
+// font-size: 14px !important;
+color: rgba(128, 128, 128, 0.897);
+
+}
+button {
+  margin: 2em auto;
+}
+
+.links {
+  margin: 2em 0;
+}
+
+.links div {
+  margin-bottom: 1em;
+  color: rgb(128, 128, 128);
+}
+
+h1,
+form,
+.links {
+  text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  mat-card {
+    width: 100%;
+    height: 100vh;
+    padding: 2em;
+    // margin-left: 1em;
+    // margin-right: 1em;
+    background-color: rgba(255,255,255,0.7);
+  }
+
+.img1 {
+  width: 9em;
+  padding: 0 auto;
+}
+
+.img2 {
+  width: 18em;
+  padding: 0 auto;
+}
+  section {
+    padding: 0;
+    margin: 0;
+  }
+  .links {
+    width: 90%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// @media (min-height: px) {
+//   mat-card {
+//     width: 40em;
+//     padding: 2em;
+//   }
+
+//   h1 {
+//     padding-top: 1em;
+//   }
+
+//   button {
+//     margin-top: 2em;
+//   }
+// }
